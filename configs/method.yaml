@@ -1,0 +1,8 @@
+band_low: -1.0
+band_high: 2.0
+band_points: 121
+gripper_columns:
+- 6
+- 13
+n_latents: 8
+noise_offset: 0

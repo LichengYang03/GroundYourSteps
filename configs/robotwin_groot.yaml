@@ -1,0 +1,6 @@
+name: robotwin_groot
+run_root: ../runs/robotwin_groot
+method: method.yaml
+policy: policy/groot_robotwin.yaml
+data: data/robotwin_clean.yaml
+solver: solver/l4.yaml

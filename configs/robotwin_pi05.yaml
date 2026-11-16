@@ -1,0 +1,6 @@
+name: robotwin_pi05
+run_root: ../runs/robotwin_pi05
+method: method.yaml
+policy: policy/pi05_robotwin.yaml
+data: data/robotwin_clean.yaml
+solver: solver/l4.yaml

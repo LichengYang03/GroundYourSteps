@@ -1,0 +1,11 @@
+kind: groot
+device: cuda:0
+groot_root: ../Isaac-GR00T
+checkpoint: checkpoints/groot_robotwin
+embodiment_tag: new_embodiment
+arm_joints: 6
+camera_keys:
+  head: head
+  left_wrist: left
+  right_wrist: right
+score_horizon: 32

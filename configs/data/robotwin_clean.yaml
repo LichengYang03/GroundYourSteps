@@ -1,0 +1,25 @@
+format: robotwin_hdf5
+dataset_root: datasets/robotwin/clean/{task}/aloha-agilex_clean_50
+image_channel_order: bgr
+action_key: joint_action/vector
+state_key: joint_action/vector
+action_slice:
+- 0
+- 14
+state_slice:
+- 0
+- 14
+action_horizon: 32
+cameras:
+  head: head_camera
+  left_wrist: left_camera
+  right_wrist: right_camera
+prompt_source: seen
+prompt_scope: episode
+episode_count: 50
+max_chunks_per_episode: 4
+chunk_selection: random
+complete_only: true
+selection_seed: 0
+noise_seed: 0
+noise_episode_stride: 1000

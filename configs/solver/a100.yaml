@@ -1,0 +1,6 @@
+particles: 24
+iterations: 3
+resolution: 0.001
+micro_batch: 512
+context_cache: 200
+seed: 0

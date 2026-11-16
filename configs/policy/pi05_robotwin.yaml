@@ -1,0 +1,12 @@
+kind: openpi
+device: cuda:0
+openpi_root: ../openpi
+checkpoint: checkpoints/pi05_robotwin
+config_name: gys_robotwin_pi05
+model_action_horizon: 32
+use_training_repack: false
+camera_keys:
+  head: head_cam
+  left_wrist: left_cam
+  right_wrist: right_cam
+image_layout: hwc
